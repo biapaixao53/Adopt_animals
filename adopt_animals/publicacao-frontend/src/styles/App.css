@@ -36,3 +36,205 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* header*/
+/* Estilo do cabeçalho */
+header {
+  background: linear-gradient(145deg, #f9f9f9, #f1f1f1);  /* Gradiente de fundo */
+  padding: 20px 40px;  /* Espaçamento interno */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do logo e da navegação */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  font-size: 18px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;  /* Cor do texto dos links */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6f61;  /* Cor de destaque ao passar o mouse */
+}
+
+/* Estilo dos botões de autenticação */
+.auth-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  background-color: #ff6f61;  /* Cor de fundo do botão */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #ff4b3a;  /* Cor de destaque no hover */
+}
+
+/* Estilo do texto principal */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}
+
+h1 span {
+  font-size: 40px;
+  color: #ff6f61;  /* Cor do texto de destaque */
+}
+
+h2 {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Responsividade: garantir que o layout se ajuste bem em telas menores */
+@media (max-width: 768px) {
+  header {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .auth-buttons {
+    margin-top: 20px;
+  }
+
+  .login-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+/* publish */
+
+.publish-page-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.publish-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.publish-form input, .publish-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.publish-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.file-input {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.publish-submit-btn {
+  padding: 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.publish-submit-btn:hover {
+  background-color: #218838;
+}
+
+/* Contentor relativo para posicionar o menu */
+.user-dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* O círculo vazio do seu mockup */
+.avatar-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+/* A caixa do menu dropdown */
+.dropdown-menu {
+  position: absolute;
+  top: 55px;
+  right: 0;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  z-index: 1000;
+  border: 1px solid #eee;
+}
+
+.dropdown-menu li {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.dropdown-menu li a, .logout-item {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dropdown-menu li a:hover, .logout-item:hover {
+  background-color: #f9f9f9;
+}
+
+.logout-item {
+  color: #d9534f; /* Cor diferente para destaque do logout */
+}

@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d8c479-9124-475e-8873-e81af77a3ba1" name="Changes" comment="parte2" />
+    <list default="true" id="a9d8c479-9124-475e-8873-e81af77a3ba1" name="Changes" comment="parte3">
+      <change afterPath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/components/LoginModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/components/PetModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/pages/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/pages/MyPets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/pages/Pets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/pages/Publish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/pages/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/adopt_animals/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/adopt_animals/adopt_animals/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/adopt_animals/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/adopt_animals/adopt_animals/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/adopt_animals/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/components/PetDetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/components/PetList.js" beforeDir="false" afterPath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/components/PetList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/pages/Adopt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/adopt_animals/publicacao-frontend/src/styles/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/publicacao/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/adopt_animals/publicacao/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/publicacao/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/adopt_animals/publicacao/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/publicacao/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/adopt_animals/publicacao/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adopt_animals/publicacao/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/adopt_animals/publicacao/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,23 +47,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="36KOlrVB82N3552g1z21Ru2UCWX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\beatr\PycharmProjects\Adopt_animals\adopt_animals\publicacao" />
@@ -113,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764931949877</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="parte3">
+      <option name="closed" value="true" />
+      <created>1764932086134</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764932086134</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,7 +163,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="busca e mostra lista de animais da bd na home" />
     <MESSAGE value="parte2" />
-    <option name="LAST_COMMIT_MESSAGE" value="parte2" />
+    <MESSAGE value="parte3" />
+    <option name="LAST_COMMIT_MESSAGE" value="parte3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

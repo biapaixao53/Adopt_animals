@@ -8,7 +8,8 @@ class Animal(models.Model):
     idade = models.IntegerField()
     tamanho = models.CharField(max_length=50)
     descricao = models.TextField()
-    foto = models.ImageField(upload_to='media/')
+    foto = models.ImageField(upload_to='media')
+    localizacao = models.CharField(max_length=100)
     responsavel = models.ForeignKey(User, on_delete=models.CASCADE)  # Relacionamento com o responsável
     data_publicacao = models.DateTimeField(auto_now_add=True)
 
